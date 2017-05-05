@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="424.0" prefWidth="484.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ejercicio2.FXMLDocumentController">
+   <children>
+      <TableView fx:id="tvComunidades" layoutX="20.0" layoutY="96.0" prefHeight="316.0" prefWidth="448.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="129.0" text="id" />
+          <TableColumn fx:id="nombre" prefWidth="318.0" text="nombre" />
+        </columns>
+      </TableView>
+      <Label fx:id="lbTotal" layoutX="228.0" layoutY="55.0" text="Label" />
+      <Label fx:id="lbEstado" layoutX="20.0" layoutY="14.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
